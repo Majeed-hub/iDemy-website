@@ -1,0 +1,44 @@
+@media only screen and (max-width:1020px){
+    .nav-list{
+        flex-direction: column;
+    }
+  .nav-bar{
+      flex-direction: column;
+      height: 430px;
+      transition: all 0.7s ease-out;
+  }
+  .burger{
+      display: block;
+  }
+  .nav-list img{
+    width:70px;
+    height: 40px;
+  }
+
+  .nav-height-resp{
+      height: 65px;
+  }
+  .nav-visibility-resp{
+      visibility: hidden;
+  }
+
+  /* main box */
+  .first-section{
+    height:100vh;
+    
+}
+  .main-box{
+      max-width: 100%;
+      flex-direction: column;
+  }
+  .big-text{
+      text-align: center;
+  }
+  .small-text{
+      text-align: center;
+  }
+
+  .section{
+      flex-direction: column-reverse;
+  }
+}
